@@ -15,6 +15,18 @@ A personal APT repository hosting custom applications built with modern technolo
   - Clipboard integration
   - Input validation
 
+### SumPDF
+
+- **Description**: A tool for combining PDF files and converting various files into PDFs
+- **Technology**: Kotlin + Compose Desktop
+- **Features**:
+  - **Combine PDFs**: Merge multiple PDF files into a single document
+  - **Convert to PDF**: Support for text files (.txt), images (.png, .jpg, .jpeg), vector graphics (.svg), and documents (.doc, .docx, .odt)
+  - **Modern UI**: Dark/light mode support with drag & drop interface
+  - **Batch Processing**: Convert multiple files simultaneously
+  - **Real-time Progress**: File-by-file conversion feedback
+  - **Recent Folders**: Quick access to output locations
+
 ## ⚡ Quick Installation
 
 ### Prerequisites
@@ -40,7 +52,17 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/zahid-archive-keyring.gpg] h
 
 ```bash
 sudo apt update
+sudo apt install pwdgen sumpdf
+```
+
+### Install Individual Applications
+
+```bash
+# Install only PwdGen
 sudo apt install pwdgen
+
+# Install only SumPDF
+sudo apt install sumpdf
 ```
 
 ### Launching Applications
@@ -48,7 +70,7 @@ sudo apt install pwdgen
 After installation, you can:
 
 - Launch from Applications menu
-- Run from terminal: `pwdgen`
+- Run from terminal: `pwdgen` or `sumpdf`
 
 ## 📦 Manual Installation
 
@@ -64,7 +86,12 @@ sudo apt install -f
 ### Remove specific applications
 
 ```bash
+# Remove individual apps
 sudo apt remove pwdgen
+sudo apt remove sumpdf
+
+# Remove all repository apps
+sudo apt remove pwdgen sumpdf
 ```
 
 ### Remove the entire repository
@@ -83,11 +110,25 @@ sudo apt update
 - **Architecture**: amd64
 - **GPG Key**: F6C1BB08C8138D234A54D3D30940F1449316DE37
 
+## 📋 Application Requirements
+
+### PwdGen
+
+- Python 3.8+
+- PyQt6
+
+### SumPDF
+
+- JRE 17 (automatically installed as dependency)
+- For document conversion (.doc, .docx, .odt): LibreOffice (`sudo apt install libreoffice`)
+
 ## 📞 Support & Contact
 
 - **GitHub**: [@zahid4kh](https://github.com/zahid4kh)
 - **Email**: halilzahid@gmail.com
 - **Issues**: Please report issues on the respective application's GitHub repository
+  - [PwdGen Issues](https://github.com/zahid4kh/pwdgen/issues)
+  - [SumPDF Issues](https://github.com/zahid4kh/sumpdf/issues)
 
 ## 📜 License
 
