@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64
+Codename: stable
+Components: main
+Date: Mon, 02 Jun 2025 15:40:14 +0000
+Description: Zahid Khalilov's Application Repository
+Label: Zahid's Debian Apps Repository
+Origin: Zahid Khalilov
+Suite: stable
+Version: 1.0
+MD5Sum:
+ 13b092ac7901da78be72d458ffd196fb             2008 Release
+ 85042fddd504733175b00bd5e80f8ff6             1615 main/binary-amd64/Packages
+ 822f7d4ecef4cba3b3cb2772383ba9d1             1009 main/binary-amd64/Packages.bz2
+ 3e045934a193a336167641d05c4c969b              932 main/binary-amd64/Packages.gz
+SHA1:
+ 1d2b6bf113189d3d8d813468a8ce9baa50c5339b             2008 Release
+ 17e8328d4fc4e74d7b65f52a80165176881efdbd             1615 main/binary-amd64/Packages
+ 89f3df1c4002d1689725d2724b72b0b55398cb90             1009 main/binary-amd64/Packages.bz2
+ ae15c67e59c6d662bde2e8678532681692be8ac7              932 main/binary-amd64/Packages.gz
+SHA256:
+ aeb40bb3d8b109a9b69451df25974fa2922718b3c71d9bae5bd21cd45d68d763             2008 Release
+ f4c2f374175ab0057b5d0bf9f9a276cbc1725610d65efdbb50b35ae7727f01b8             1615 main/binary-amd64/Packages
+ e4489900cc61d8286d1bc09c3f6e54453253eb748eef6f97d95a0beb9cacaa2b             1009 main/binary-amd64/Packages.bz2
+ ffdf60c9afbb0dbb70289e64a7ac3861cf2b4d78c4857fd1c6fcedb192c41fe6              932 main/binary-amd64/Packages.gz
+SHA512:
+ 9f80d3c51f6e578acb38d8c1327b9ce9e14a0b6d78b72a69104b0ba5fc5c18b0daef46b82a1f57c9519e7c1e72aeb2bc830bc2c45234d014fa5d6e06737dac74             2008 Release
+ 94d618cd9fdd55c214969b7f4c28049b089cb3d9f4ff8e651aa2db539dc51864af674dcf3c5dc518daf36fad026b4bd0c82ba9ca19f8a17ca5c11d428bd4b2df             1615 main/binary-amd64/Packages
+ 6cf39122fd28edaacd2fdae03b7e7c1805da0f1a8ac607ab226273ca49197db21eb701a0c8f0123a200d13d218c0784349bfcf9505fb01d76af1282b484eca16             1009 main/binary-amd64/Packages.bz2
+ eefd110e81b49f765662abecd47beca81bcaa23a90786f4133edf6fe343f27fa91e7253620ee1dd170a5c1a16021d9be6c0361ad6da7f01c77b88fdae0cdb166              932 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE9sG7CMgTjSNKVNPTCUDxRJMW3jcFAmg9xeEACgkQCUDxRJMW
+3jcWQw/+Mvq2soG8F66zQyF/66g5DvfSq5hgjdCto9MAymZVWZ6nTWK5ds9eKWvF
+DeSaG3cDo3w3WEKGWutpN8btPgyDcFUecPiWWvHQ9BMBotxibN84qYf7fTTeT8Nd
+JFbKYUjfyKq/IPdrXGXHNa4wu+qDy0wjHmZkPN6u+FhGXewkMPNJ2YVj+95ojx7R
+ABEfi8caC7OtKH0pyKeEdZnEP0bFEsUy7FYDVJ1SYhJVP3IeYaH/BCy+khM/oPe4
+M3LkrOj2E07ljBquIZGbyqaJBhPUSlUPQLDRHl/IL8y4Xcz9fbiIrLB7Rm412dqQ
+1fLcaUJQu4bqHv5Vv4O8m4D4lqdRLgvvbK4e/ZxIRVtu8H8L5aivipYn9Dhya4G8
+VCs2vrX6FbzHLNMedAAR6egCybMSc47f/SxLxU3/T/s9ygLOnpUuGlHtcDd1thyQ
+aLJsCHaNGksXPtMBbMJNIEQOPIJzQcgI+kiuvK6NilpfGQEgBbMigtcnCrpts+ML
+kft7nQlOaeTf9V0YqTJ3E4EfYhubWZWspWBefkr3+j6fDx+KyQLf3wOhyAe53K5H
+6gKnCw/gQO78XezNCQpQ3e71pleaV93m6OXRs5Irs+iLufm2xcP/XyA2rpzr2z9O
+z14mAN3PiRr/MGeWW5dEJbfXsngARfjb5JyAs/pCMN7RYSAtUqA=
+=osVZ
+-----END PGP SIGNATURE-----
