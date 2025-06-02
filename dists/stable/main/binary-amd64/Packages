@@ -1,0 +1,36 @@
+Package: pwdgen
+Version: 1.0.4
+Architecture: all
+Maintainer: Zahid Khalilov <halilzahid@gmail.com>
+Depends: python3 (>= 3.8), python3-pyqt6 (>= 6.0)
+Filename: pool/main/p/pwdgen/pwdgen-1.0.4.deb
+Size: 19600
+MD5sum: 9e11e8c2e719fbe5cad796c3693d63e5
+SHA1: 3f25bab1265197e4083b310ef8e2391fe61724c3
+SHA256: 42fbc42ed19cf6f1dd38bddf6ed4eae3e2095a86f92d1898d1cbc75382447b92
+Section: utils
+Priority: optional
+Description: Secure Password Generator
+ A robust tool for generating secure, random passwords with customizable options.
+ Features:
+  * Generates secure passwords with customizable length
+  * Includes random uppercase letters, lowercase letters, numbers, and special characters
+  * User-friendly interface
+  * Comprehensive error handling and input validation
+
+Package: sumpdf
+Version: 1.1.0-1
+Architecture: amd64
+Maintainer: Unknown <Unknown>
+Installed-Size: 131132
+Depends: libasound2t64, libbrotli1, libbsd0, libbz2-1.0, libc6, libexpat1, libfontconfig1, libfreetype6, libgcc-s1, libgif7, libgl1, libglib2.0-0t64, libglvnd0, libglx0, libgraphite2-3, libharfbuzz0b, libjpeg-turbo8, liblcms2-2, libmd0, libpcre2-8-0, libpng16-16t64, libstdc++6, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, libxi6, libxrender1, libxtst6, xdg-utils, zlib1g
+Provides: sumpdf
+Filename: pool/main/s/sumpdf/sumpdf_1.1.0.deb
+Size: 54853054
+MD5sum: 224b898093c643f526209bd7ecc4624b
+SHA1: 5ab468607894ba5d885f3beed7c93322b4e61fef
+SHA256: 777a0a7d3893a37b56c0781a9beedbe634b349d54e54ccefa532fb554406da34
+Section: misc
+Priority: optional
+Description: Tool for combining PDFs into one and converting various file types into PDF format
+
