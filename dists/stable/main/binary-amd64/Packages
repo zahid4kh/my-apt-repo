@@ -19,17 +19,17 @@ Description: Secure Password Generator
   * Comprehensive error handling and input validation
 
 Package: sumpdf
-Version: 1.1.0-1
+Version: 1.2.0-1
 Architecture: amd64
-Maintainer: Unknown <Unknown>
-Installed-Size: 131132
+Maintainer: Zahid Khalilov <Unknown>
+Installed-Size: 132324
 Depends: libasound2t64, libbrotli1, libbsd0, libbz2-1.0, libc6, libexpat1, libfontconfig1, libfreetype6, libgcc-s1, libgif7, libgl1, libglib2.0-0t64, libglvnd0, libglx0, libgraphite2-3, libharfbuzz0b, libjpeg-turbo8, liblcms2-2, libmd0, libpcre2-8-0, libpng16-16t64, libstdc++6, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, libxi6, libxrender1, libxtst6, xdg-utils, zlib1g
 Provides: sumpdf
-Filename: pool/main/s/sumpdf/sumpdf_1.1.0.deb
-Size: 54853054
-MD5sum: 224b898093c643f526209bd7ecc4624b
-SHA1: 5ab468607894ba5d885f3beed7c93322b4e61fef
-SHA256: 777a0a7d3893a37b56c0781a9beedbe634b349d54e54ccefa532fb554406da34
+Filename: pool/main/s/sumpdf/sumpdf_1.2.0.deb
+Size: 56014142
+MD5sum: 12abadcff01f80b2a7596de1c3107d61
+SHA1: 5e5d28dc7b8c74eeafdb58dff6371c0c10064f64
+SHA256: 81897086e560ea589476a6b176cb713d6d8f01c1bc2fb9f725df7ce2583d37af
 Section: misc
 Priority: optional
 Description: Tool for combining PDFs into one and converting various file types into PDF format
