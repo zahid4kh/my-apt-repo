@@ -1,15 +1,15 @@
 Package: markdownify
-Version: 1.0.0-1
+Version: 1.0.1-1
 Architecture: amd64
 Maintainer: Zahid Khalilov <halilzahid@gmail.com>
 Installed-Size: 120174
 Depends: libasound2t64, libbrotli1, libbsd0, libbz2-1.0, libc6, libexpat1, libfontconfig1, libfreetype6, libgcc-s1, libgif7, libgl1, libglib2.0-0t64, libglvnd0, libglx0, libgraphite2-3, libharfbuzz0b, libjpeg-turbo8, liblcms2-2, libmd0, libpcre2-8-0, libpng16-16t64, libstdc++6, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, libxi6, libxrender1, libxtst6, xdg-utils, zlib1g
 Provides: markdownify
-Filename: pool/main/m/markdownify/markdownify_1.0.0.deb
-Size: 44763538
-MD5sum: 0b1c21ac5a1b8ffcbf184261247882be
-SHA1: c7bbfe6fef486b2ef0b2d5eecd6f5ffef88d62a7
-SHA256: dcb8fe2b7171975ca9f1b2730738187bf9de94f1153c36939912b4595c0195c4
+Filename: pool/main/m/markdownify/markdownify_1.0.1.deb
+Size: 44763472
+MD5sum: 834e09124da5215512704c87dc74d895
+SHA1: 4ff9ea6adb06884cde1a3e689a49967f2a20869e
+SHA256: cb74b9ea53700d286c1f6cb357ac7c0baea23d241367339c322ba0aa13e46c1b
 Section: misc
 Priority: optional
 Description: A powerful desktop markdown editor with live preview
