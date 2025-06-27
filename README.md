@@ -1,31 +1,6 @@
 # My APT Repository
 
-A personal APT repository hosting custom applications built with modern technologies including Python/PyQt6 and Kotlin/Compose Desktop.
-
-## 🚀 Available Applications
-
-### PwdGen
-
-- **Description**: Secure password generator with customizable options
-- **Technology**: Python + PyQt6
-- **Features**:
-  - Customizable password length (1-128 characters)
-  - Include/exclude character sets (uppercase, lowercase, numbers, special)
-  - Modern dark-themed UI
-  - Clipboard integration
-  - Input validation
-
-### SumPDF
-
-- **Description**: A tool for combining PDF files and converting various files into PDFs
-- **Technology**: Kotlin + Compose Desktop
-- **Features**:
-  - **Combine PDFs**: Merge multiple PDF files into a single document
-  - **Convert to PDF**: Support for text files (.txt), images (.png, .jpg, .jpeg), vector graphics (.svg), and documents (.doc, .docx, .odt)
-  - **Modern UI**: Dark/light mode support with drag & drop interface
-  - **Batch Processing**: Convert multiple files simultaneously
-  - **Real-time Progress**: File-by-file conversion feedback
-  - **Recent Folders**: Quick access to output locations
+A personal APT repository hosting custom desktop applications built with modern technologies including Python/PyQt6 and Kotlin/Compose Desktop.
 
 ## ⚡ Quick Installation
 
@@ -52,16 +27,22 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/zahid-archive-keyring.gpg] h
 
 ```bash
 sudo apt update
-sudo apt install pwdgen sumpdf
+sudo apt install kached markdownify pwdgen sumpdf
 ```
 
 ### Install Individual Applications
 
 ```bash
-# Install only PwdGen
+# Code snippet manager
+sudo apt install kached
+
+# Markdown editor
+sudo apt install markdownify
+
+# Password generator
 sudo apt install pwdgen
 
-# Install only SumPDF
+# PDF management tool
 sudo apt install sumpdf
 ```
 
@@ -70,7 +51,16 @@ sudo apt install sumpdf
 After installation, you can:
 
 - Launch from Applications menu
-- Run from terminal: `pwdgen` or `sumpdf`
+- Run from terminal: `kached`, `markdownify`, `pwdgen`, or `sumpdf`
+
+## 🌐 Browse Applications
+
+Visit the **[Repository Website](https://zahid4kh.github.io/my-apt-repo)** to:
+
+- Browse detailed information about each application
+- View features, screenshots, and usage instructions
+- Access direct download links for manual installation
+- Get platform-specific installation guides
 
 ## 📦 Manual Installation
 
@@ -87,11 +77,13 @@ sudo apt install -f
 
 ```bash
 # Remove individual apps
+sudo apt remove kached
+sudo apt remove markdownify
 sudo apt remove pwdgen
 sudo apt remove sumpdf
 
 # Remove all repository apps
-sudo apt remove pwdgen sumpdf
+sudo apt remove kached markdownify pwdgen sumpdf
 ```
 
 ### Remove the entire repository
@@ -108,28 +100,33 @@ sudo apt update
 - **Distribution**: stable
 - **Component**: main
 - **Architecture**: amd64
-- **GPG Key**: F6C1BB08C8138D234A54D3D30940F1449316DE37
+- **GPG Key ID**: F6C1BB08C8138D234A54D3D30940F1449316DE37
 
-## 📋 Application Requirements
+## Application-Specific Requirements
 
-### PwdGen
-
-- Python 3.8+
-- PyQt6
-
-### SumPDF
-
-- JRE 17 (automatically installed as dependency)
-- For document conversion (.doc, .docx, .odt): LibreOffice (`sudo apt install libreoffice`)
+- **Kached & SumPDF & Markdownify**: JRE 17+ (automatically installed as dependency)
+- **PwdGen**: Python 3.8+ and PyQt6 (automatically installed as dependency)
+- **SumPDF**: For document conversion (.doc, .docx, .odt): `sudo apt install libreoffice`
 
 ## 📞 Support & Contact
 
+- **Repository Website**: https://zahid4kh.github.io/my-apt-repo
 - **GitHub**: [@zahid4kh](https://github.com/zahid4kh)
 - **Email**: halilzahid@gmail.com
-- **Issues**: Please report issues on the respective application's GitHub repository
-  - [PwdGen Issues](https://github.com/zahid4kh/pwdgen/issues)
-  - [SumPDF Issues](https://github.com/zahid4kh/sumpdf/issues)
+
+### Report Issues
+
+Please report issues on the respective application's GitHub repository:
+
+- [Kached Issues](https://github.com/zahid4kh/kached/issues)
+- [Markdownify Issues](https://github.com/zahid4kh/markdownify/issues)
+- [PwdGen Issues](https://github.com/zahid4kh/pwdgen/issues)
+- [SumPDF Issues](https://github.com/zahid4kh/sumpdf/issues)
 
 ## 📜 License
 
 Individual applications maintain their own licenses. Check each application's documentation for specific license information.
+
+---
+
+**Built with ❤️ by Zahid Khalilov**
