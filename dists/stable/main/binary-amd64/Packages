@@ -1,3 +1,19 @@
+Package: kached
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Zahid Khalilov <halilzahid@gmail.com>
+Installed-Size: 116631
+Depends: libasound2t64, libbrotli1, libbsd0, libbz2-1.0, libc6, libexpat1, libfontconfig1, libfreetype6, libgcc-s1, libgif7, libgl1, libglib2.0-0t64, libglvnd0, libglx0, libgraphite2-3, libharfbuzz0b, libjpeg-turbo8, liblcms2-2, libmd0, libpcre2-8-0, libpng16-16t64, libstdc++6, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, libxi6, libxrender1, libxtst6, xdg-utils, zlib1g
+Provides: kached
+Filename: pool/main/k/kached/kached_1.0.0.deb
+Size: 41354564
+MD5sum: 2335905305849368167c62b3b47d7e80
+SHA1: a75dc752c1bd7774e3155b2b3ce3e3d112f81bc4
+SHA256: ed827c193ee28d3f4bca678ca70b855281841c39f84ba6953c4e4023a90e0098
+Section: misc
+Priority: optional
+Description: Code snippet manager desktop app
+
 Package: markdownify
 Version: 1.0.1-1
 Architecture: amd64
