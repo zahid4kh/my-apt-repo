@@ -36,21 +36,19 @@ const appDetails = {
   },
 
   pwdgen: {
-    title: "PwdGen - Secure Password Generator",
+    title: "PwdGen - Secure and Simple Password Generator",
     description:
-      "A robust tool for generating secure, random passwords with customizable options and modern PyQt6 interface.",
+      "A robust tool for generating secure, random passwords with customizable options and modern Material3 interface.",
     features: [
-      "Generate secure passwords with customizable length (1-128 characters)",
+      "Generate secure passwords with customizable length (1-75 characters)",
       "Include/exclude character sets (uppercase, lowercase, numbers, special)",
       "Modern dark-themed UI",
       "Clipboard integration",
       "Comprehensive input validation",
-      "Colorful terminal interface",
       "Logging system for operations",
     ],
     install: "sudo apt install pwdgen",
     github: "https://github.com/zahid4kh/pwdgen",
-    requirements: "Python 3.8+, PyQt6",
   },
 
   sumpdf: {
