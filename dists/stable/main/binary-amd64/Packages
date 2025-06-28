@@ -31,17 +31,17 @@ Priority: optional
 Description: A powerful desktop markdown editor with live preview
 
 Package: pwdgen
-Version: 1.0.0-1
+Version: 2.0.0-1
 Architecture: amd64
 Maintainer: Zahid Khalilov <halilzahid@gmail.com>
-Installed-Size: 113655
+Installed-Size: 113711
 Depends: libasound2t64, libbrotli1, libbsd0, libbz2-1.0, libc6, libexpat1, libfontconfig1, libfreetype6, libgcc-s1, libgif7, libgl1, libglib2.0-0t64, libglvnd0, libglx0, libgraphite2-3, libharfbuzz0b, libjpeg-turbo8, liblcms2-2, libmd0, libpcre2-8-0, libpng16-16t64, libstdc++6, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, libxi6, libxrender1, libxtst6, xdg-utils, zlib1g
 Provides: pwdgen
-Filename: pool/main/p/pwdgen/pwdgen-1.0.0.deb
-Size: 38632974
-MD5sum: ab8dceaa4a5d13726cec2195d02d441c
-SHA1: 27b486995f40e954e08967f2f498fb7ae0dedecb
-SHA256: fcc98b2b3ec2e8a7722e482cc9bcc2d0b148682ee99e53fb6bdde25149f4bf16
+Filename: pool/main/p/pwdgen/pwdgen-2.0.0.deb
+Size: 38681320
+MD5sum: 5a3a93e91ae9844e1801759ae89298a7
+SHA1: 15a22ada133323407a7b7124d97e42ae99ab825a
+SHA256: d6444cbcce6604918cb4bf91411d1b55617c5dc3278ba34c6681f26d81aef8c3
 Section: misc
 Priority: optional
 Description: Simple and minimalistic password generator
