@@ -1,31 +1,31 @@
 Package: kached
-Version: 1.0.0-1
+Version: 1.0.1-1
 Architecture: amd64
 Maintainer: Zahid Khalilov <halilzahid@gmail.com>
-Installed-Size: 116631
+Installed-Size: 116688
 Depends: libasound2t64, libbrotli1, libbsd0, libbz2-1.0, libc6, libexpat1, libfontconfig1, libfreetype6, libgcc-s1, libgif7, libgl1, libglib2.0-0t64, libglvnd0, libglx0, libgraphite2-3, libharfbuzz0b, libjpeg-turbo8, liblcms2-2, libmd0, libpcre2-8-0, libpng16-16t64, libstdc++6, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, libxi6, libxrender1, libxtst6, xdg-utils, zlib1g
 Provides: kached
-Filename: pool/main/k/kached/kached_1.0.0.deb
-Size: 41354564
-MD5sum: 2335905305849368167c62b3b47d7e80
-SHA1: a75dc752c1bd7774e3155b2b3ce3e3d112f81bc4
-SHA256: ed827c193ee28d3f4bca678ca70b855281841c39f84ba6953c4e4023a90e0098
+Filename: pool/main/k/kached/kached_1.0.1.deb
+Size: 41409084
+MD5sum: 5191fd0104bae7091613708037bba5c3
+SHA1: a7b33bb86dba7305b16a44a583d9b5ddb1f57dff
+SHA256: f7616b5a5cb6440f09529b55bdf9f6d8c00d83c5295965a4e50a0ce2a5a22bf3
 Section: misc
 Priority: optional
 Description: Code snippet manager desktop app
 
 Package: markdownify
-Version: 1.0.1-1
+Version: 1.0.2-1
 Architecture: amd64
 Maintainer: Zahid Khalilov <halilzahid@gmail.com>
-Installed-Size: 120174
+Installed-Size: 116095
 Depends: libasound2t64, libbrotli1, libbsd0, libbz2-1.0, libc6, libexpat1, libfontconfig1, libfreetype6, libgcc-s1, libgif7, libgl1, libglib2.0-0t64, libglvnd0, libglx0, libgraphite2-3, libharfbuzz0b, libjpeg-turbo8, liblcms2-2, libmd0, libpcre2-8-0, libpng16-16t64, libstdc++6, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, libxi6, libxrender1, libxtst6, xdg-utils, zlib1g
 Provides: markdownify
-Filename: pool/main/m/markdownify/markdownify_1.0.1.deb
-Size: 44763472
-MD5sum: 834e09124da5215512704c87dc74d895
-SHA1: 4ff9ea6adb06884cde1a3e689a49967f2a20869e
-SHA256: cb74b9ea53700d286c1f6cb357ac7c0baea23d241367339c322ba0aa13e46c1b
+Filename: pool/main/m/markdownify/markdownify_1.0.2.deb
+Size: 40715000
+MD5sum: 38aad035aef087cd4e91efb6ea6aa4fa
+SHA1: 84f96919db8008b3f7868fd22f5e87444ab7aa6e
+SHA256: 17f42583993bf56339bd52098c8e72dd5c580a9452a89ac55d39801580ac0289
 Section: misc
 Priority: optional
 Description: A powerful desktop markdown editor with live preview
@@ -47,17 +47,17 @@ Priority: optional
 Description: Simple and minimalistic password generator
 
 Package: sumpdf
-Version: 1.3.0-1
+Version: 1.3.1-1
 Architecture: amd64
 Maintainer: Zahid Khalilov <halilzahid@gmail.com>
-Installed-Size: 132124
+Installed-Size: 132328
 Depends: libasound2t64, libbrotli1, libbsd0, libbz2-1.0, libc6, libexpat1, libfontconfig1, libfreetype6, libgcc-s1, libgif7, libgl1, libglib2.0-0t64, libglvnd0, libglx0, libgraphite2-3, libharfbuzz0b, libjpeg-turbo8, liblcms2-2, libmd0, libpcre2-8-0, libpng16-16t64, libstdc++6, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, libxi6, libxrender1, libxtst6, xdg-utils, zlib1g
 Provides: sumpdf
-Filename: pool/main/s/sumpdf/sumpdf_1.3.0.deb
-Size: 55823838
-MD5sum: c8a4e9680e753259061c66e07cacab3f
-SHA1: c933931f157d12f8e95bd3df350d490dd6206ab4
-SHA256: 514614093051254ced1da2baf5a60b1146ca1c14ade0082f1c7df14f00c1ef8c
+Filename: pool/main/s/sumpdf/sumpdf_1.3.1.deb
+Size: 56005534
+MD5sum: 4addaa79e63a0441abe74f02e4309aad
+SHA1: fca8fd0d0a8dd232fa19b738431d674b583d7a18
+SHA256: d3f28b39c5978f6e32231041dfe667ddbfc9ee5bf1c8869c3c1ab8a10c6d5e2c
 Section: misc
 Priority: optional
 Description: Tool for combining PDFs into one and converting various file types into PDF format
