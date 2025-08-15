@@ -1,4 +1,26 @@
 const appDetails = {
+  composefordesktop: {
+    title: "Compose for Desktop Wizard - Project Generator",
+    description:
+      "A native desktop application for generating production-ready Kotlin Compose for Desktop projects with advanced configuration options and offline workflow.",
+    features: [
+      "Generate complete Kotlin Compose Desktop projects offline",
+      "Icon management with drag & drop PNG support and automatic conversion (ICO/ICNS)",
+      "Dependency selection - 11 optional libraries (Retrofit, Ktor, SQLDelight, etc.)",
+      "Preview of generated build.gradle.kts, settings.gradle.kts, and other files",
+      "Material3 theming with dark mode support",
+      "Expandable configuration sections for organized workflow",
+      "Linux desktop integration with proper DEB packaging",
+      "Cross-platform project generation (Windows, macOS, Linux distributions)",
+      "Generated projects include hot reload support and ProGuard optimization",
+      "MVVM architecture with Koin dependency injection in generated projects",
+    ],
+    install: "sudo apt install composefordesktop",
+    github: "https://github.com/zahid4kh/compose-for-desktop/tree/desktop",
+    note: "Also available as web version at composefordesktop.vercel.app for instant access without installation",
+    requirements: "Java 17 or later (automatically installed as dependency)",
+  },
+
   kached: {
     title: "Kached - Code Snippet Manager",
     description:
@@ -103,7 +125,7 @@ function showAppDetails(appName) {
   } else if (app.formats) {
     additionalInfo = `<p><strong>Supported Formats:</strong> ${app.formats}</p>`;
   } else if (app.requirements) {
-    additionalInfo = `<p><strong>Requirements:</strong> ${app.requirements}</p>`;
+    additionalInfo = `<div class="warning"><strong>Requirements:</strong> ${app.requirements}</div>`;
   }
 
   if (app.note) {

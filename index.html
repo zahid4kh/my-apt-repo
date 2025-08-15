@@ -36,7 +36,8 @@
             </div>
 
             <h3>3. Update & Install</h3>
-            <div class="command">sudo apt update<br>sudo apt install kached markdownify pwdgen sumpdf</div>
+            <div class="command">sudo apt update<br>sudo apt install composefordesktop kached markdownify pwdgen sumpdf
+            </div>
 
             <div class="success">
                 <strong>Success!</strong> You can now launch applications from your applications menu or terminal.
@@ -44,7 +45,7 @@
 
             <h2>🗑️ Uninstalling</h2>
             <h3>Remove Applications</h3>
-            <div class="command">sudo apt remove kached markdownify pwdgen sumpdf</div>
+            <div class="command">sudo apt remove composefordesktop kached markdownify pwdgen sumpdf</div>
 
             <h3>Remove Repository</h3>
             <div class="command">sudo rm /etc/apt/sources.list.d/zahid-apps.list<br>sudo rm
@@ -61,6 +62,16 @@
         <div id="apps-page" class="page">
             <h2>🚀 Available Applications</h2>
             <div class="app-grid">
+                <div class="app-card" onclick="showAppDetails('composefordesktop')">
+                    <h3>Compose for Desktop Wizard</h3>
+                    <p>Project generator for creating Kotlin Compose for Desktop applications with advanced features</p>
+                    <div class="tech-stack">
+                        <span class="badge">Kotlin</span>
+                        <span class="badge">Compose Desktop</span>
+                        <span class="badge">Project Generator</span>
+                    </div>
+                </div>
+
                 <div class="app-card" onclick="showAppDetails('kached')">
                     <h3>Kached</h3>
                     <p>Code snippet manager with syntax highlighting for 17+ programming languages</p>
@@ -103,6 +114,7 @@
             </div>
         </div>
 
+        <div id="composefordesktop-details" class="page app-details"></div>
         <div id="kached-details" class="page app-details"></div>
         <div id="markdownify-details" class="page app-details"></div>
         <div id="pwdgen-details" class="page app-details"></div>
