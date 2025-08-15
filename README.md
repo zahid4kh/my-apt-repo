@@ -1,6 +1,6 @@
 # My APT Repository
 
-A personal APT repository hosting custom desktop applications built with modern technologies including Python/PyQt6 and Kotlin/Compose Desktop.
+A personal APT repository hosting custom desktop applications built with modern technologies including Kotlin/Compose Desktop and Python/PyQt6.
 
 ## ⚡ Quick Installation
 
@@ -27,12 +27,15 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/zahid-archive-keyring.gpg] h
 
 ```bash
 sudo apt update
-sudo apt install kached markdownify pwdgen sumpdf
+sudo apt install composefordesktop kached markdownify pwdgen sumpdf
 ```
 
 ### Install Individual Applications
 
 ```bash
+# Compose for Desktop project generator
+sudo apt install composefordesktop
+
 # Code snippet manager
 sudo apt install kached
 
@@ -51,7 +54,7 @@ sudo apt install sumpdf
 After installation, you can:
 
 - Launch from Applications menu
-- Run from terminal: `kached`, `markdownify`, `pwdgen`, or `sumpdf`
+- Run from terminal: `composefordesktop`, `kached`, `markdownify`, `pwdgen`, or `sumpdf`
 
 ## 🌐 Browse Applications
 
@@ -77,13 +80,14 @@ sudo apt install -f
 
 ```bash
 # Remove individual apps
+sudo apt remove composefordesktop
 sudo apt remove kached
 sudo apt remove markdownify
 sudo apt remove pwdgen
 sudo apt remove sumpdf
 
-# Remove all repository apps
-sudo apt remove kached markdownify pwdgen sumpdf
+# Remove all repository apps (if installed any)
+sudo apt remove composefordesktop kached markdownify pwdgen sumpdf
 ```
 
 ### Remove the entire repository
@@ -104,9 +108,54 @@ sudo apt update
 
 ## Application-Specific Requirements
 
-- **Kached & SumPDF & Markdownify**: JRE 17+ (automatically installed as dependency)
+- **Compose for Desktop Wizard**: JRE 17+ (included as a depndency and will be installed automatically)
+- **Kached & SumPDF & Markdownify**: JRE 17+ (is bundled with the application)
 - **PwdGen**: Python 3.8+ and PyQt6 (automatically installed as dependency)
 - **SumPDF**: For document conversion (.doc, .docx, .odt): `sudo apt install libreoffice`
+
+## 📋 Application Overview
+
+### 🚀 Compose for Desktop Wizard
+
+**Project generator for Kotlin Compose Desktop applications**
+
+- Generate complete Kotlin projects with advanced configuration
+- Icon management with drag & drop support
+- 11 optional dependencies (Retrofit, Ktor, SQLDelight, etc.)
+- Preview of generated files
+- Offline workflow with Material3 UI
+
+### 📝 Kached
+
+**Code snippet manager with syntax highlighting**
+
+- Support for 17+ programming languages
+- Offline storage and export capabilities
+- Dark/light mode themes
+
+### ✍️ Markdownify
+
+**Desktop markdown editor with live preview**
+
+- Split-pane interface with real-time preview
+- Multiple file tabs and auto-completion
+- Extended markdown syntax support
+
+### 🔐 PwdGen
+
+**Secure password generator**
+
+- Customizable password options (1-75 characters)
+- Modern Material3 interface
+- Clipboard integration
+
+### 📄 SumPDF
+
+**PDF management and conversion tool**
+
+- Combine, split, and convert documents
+- Support for multiple formats (TXT, PNG, JPG, DOC, DOCX, ODT)
+- Drag & drop interface
 
 ## 📞 Support & Contact
 
@@ -118,6 +167,7 @@ sudo apt update
 
 Please report issues on the respective application's GitHub repository:
 
+- [Compose for Desktop Wizard Issues](https://github.com/zahid4kh/compose-for-desktop/issues)
 - [Kached Issues](https://github.com/zahid4kh/kached/issues)
 - [Markdownify Issues](https://github.com/zahid4kh/markdownify/issues)
 - [PwdGen Issues](https://github.com/zahid4kh/pwdgen/issues)
