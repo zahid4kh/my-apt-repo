@@ -1,13 +1,13 @@
 Package: composefordesktop
-Version: 1.0.1
+Version: 1.1.0
 Architecture: all
 Maintainer: Zahid Khalilov <halilzahid@gmail.com>
 Depends: default-jre | java17-runtime | openjdk-17-jre
-Filename: pool/main/cfd/composefordesktop/composefordesktop_1.0.1.deb
-Size: 27257920
-MD5sum: 52a9123d57130e5914ea0304baa985e3
-SHA1: a0b7aed68827097178175ea5face23c9693dcf62
-SHA256: 264299c0c8c8d73493e35a0954489f6e2fee9ec7371ef4a438aeaf71a9fc2d0e
+Filename: pool/main/cfd/composefordesktop/composefordesktop_1.1.0.deb
+Size: 27214040
+MD5sum: 8d48babbacf5de09ec5e69e67d8322e8
+SHA1: a4fc31cee3a21a311503ace0efa7081ee4e8e26a
+SHA256: 51fce90f2674ea759acfa377083abae0aeefda0345d52a3230792cd7c8efd441
 Description: Compose for Desktop Wizard provides a friendly user interface for creating and managing Compose for Desktop applications. It includes features for project setup, UI configuration management, and build automation.
 
 Package: kached
