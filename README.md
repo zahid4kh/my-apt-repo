@@ -161,7 +161,6 @@ sudo apt update
 
 - **Repository Website**: https://zahid4kh.github.io/my-apt-repo
 - **GitHub**: [@zahid4kh](https://github.com/zahid4kh)
-- **Email**: halilzahid@gmail.com
 
 ### Report Issues
 
