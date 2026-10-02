@@ -36,7 +36,7 @@
             </div>
 
             <h3>3. Update & Install</h3>
-            <div class="command">sudo apt update<br>sudo apt install composefordesktop kached markdownify pwdgen sumpdf
+            <div class="command">sudo apt update<br>sudo apt install composefordesktop qode kached markdownify pwdgen sumpdf
             </div>
 
             <div class="success">
@@ -45,7 +45,7 @@
 
             <h2>🗑️ Uninstalling</h2>
             <h3>Remove Applications</h3>
-            <div class="command">sudo apt remove composefordesktop kached markdownify pwdgen sumpdf</div>
+            <div class="command">sudo apt remove composefordesktop qode kached markdownify pwdgen sumpdf</div>
 
             <h3>Remove Repository</h3>
             <div class="command">sudo rm /etc/apt/sources.list.d/zahid-apps.list<br>sudo rm
@@ -69,6 +69,16 @@
                         <span class="badge">Kotlin</span>
                         <span class="badge">Compose Desktop</span>
                         <span class="badge">Project Generator</span>
+                    </div>
+                </div>
+
+                <div class="app-card" onclick="showAppDetails('qode')">
+                    <h3>QODE</h3>
+                    <p>Lightweight native code editor with integrated terminal, Git, language servers and a web dev server</p>
+                    <div class="tech-stack">
+                        <span class="badge">C++</span>
+                        <span class="badge">Qt 6</span>
+                        <span class="badge">Code Editor</span>
                     </div>
                 </div>
 
@@ -115,6 +125,7 @@
         </div>
 
         <div id="composefordesktop-details" class="page app-details"></div>
+        <div id="qode-details" class="page app-details"></div>
         <div id="kached-details" class="page app-details"></div>
         <div id="markdownify-details" class="page app-details"></div>
         <div id="pwdgen-details" class="page app-details"></div>

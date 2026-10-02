@@ -1,6 +1,6 @@
 # My APT Repository
 
-A personal APT repository hosting custom desktop applications built with modern technologies including Kotlin/Compose Desktop and Python/PyQt6.
+A personal APT repository hosting custom desktop applications built with modern technologies including Kotlin/Compose Desktop, Python/PyQt6 and C++/Qt 6.
 
 ## ⚡ Quick Installation
 
@@ -27,7 +27,7 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/zahid-archive-keyring.gpg] h
 
 ```bash
 sudo apt update
-sudo apt install composefordesktop kached markdownify pwdgen sumpdf
+sudo apt install composefordesktop qode kached markdownify pwdgen sumpdf
 ```
 
 ### Install Individual Applications
@@ -35,6 +35,9 @@ sudo apt install composefordesktop kached markdownify pwdgen sumpdf
 ```bash
 # Compose for Desktop project generator
 sudo apt install composefordesktop
+
+# Lightweight native code editor
+sudo apt install qode
 
 # Code snippet manager
 sudo apt install kached
@@ -54,7 +57,7 @@ sudo apt install sumpdf
 After installation, you can:
 
 - Launch from Applications menu
-- Run from terminal: `composefordesktop`, `kached`, `markdownify`, `pwdgen`, or `sumpdf`
+- Run from terminal: `composefordesktop`, `qode`, `kached`, `markdownify`, `pwdgen`, or `sumpdf`
 
 ## 🌐 Browse Applications
 
@@ -81,13 +84,14 @@ sudo apt install -f
 ```bash
 # Remove individual apps
 sudo apt remove composefordesktop
+sudo apt remove qode
 sudo apt remove kached
 sudo apt remove markdownify
 sudo apt remove pwdgen
 sudo apt remove sumpdf
 
 # Remove all repository apps (if installed any)
-sudo apt remove composefordesktop kached markdownify pwdgen sumpdf
+sudo apt remove composefordesktop qode kached markdownify pwdgen sumpdf
 ```
 
 ### Remove the entire repository
@@ -109,6 +113,7 @@ sudo apt update
 ## Application-Specific Requirements
 
 - **Compose for Desktop Wizard**: JRE 17+ (included as a depndency and will be installed automatically)
+- **QODE**: Qt 6 libraries (installed automatically as dependencies). Optional: Node.js for the web language servers and dev server, `git` for Source Control, `clangd` for C/C++ language support. `sudo apt remove qode` also deletes QODE's per-user data (set `QODE_KEEP_USER_DATA=1` to keep it)
 - **Kached & SumPDF & Markdownify**: JRE 17+ (is bundled with the application)
 - **PwdGen**: Python 3.8+ and PyQt6 (automatically installed as dependency)
 - **SumPDF**: For document conversion (.doc, .docx, .odt): `sudo apt install libreoffice`
@@ -124,6 +129,15 @@ sudo apt update
 - 11 optional dependencies (Retrofit, Ktor, SQLDelight, etc.)
 - Preview of generated files
 - Offline workflow with Material3 UI
+
+### 💻 QODE
+
+**Lightweight native code editor (C++ / Qt 6)**
+
+- Project explorer, tabbed and split editor, integrated terminal, Git integration
+- Language servers for C/C++, Kotlin, HTML, CSS, JavaScript, TypeScript and JSON
+- Web development: dev server with start/stop and port display (npm, pnpm, yarn, bun), nested project detection and a built-in `.env` editor
+- Markdown and SVG live preview, dark/light themes
 
 ### 📝 Kached
 
@@ -167,6 +181,7 @@ sudo apt update
 Please report issues on the respective application's GitHub repository:
 
 - [Compose for Desktop Wizard Issues](https://github.com/zahid4kh/compose-for-desktop/issues)
+- [QODE Issues](https://github.com/zahid4kh/QODE/issues)
 - [Kached Issues](https://github.com/zahid4kh/kached/issues)
 - [Markdownify Issues](https://github.com/zahid4kh/markdownify/issues)
 - [PwdGen Issues](https://github.com/zahid4kh/pwdgen/issues)

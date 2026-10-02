@@ -21,6 +21,26 @@ const appDetails = {
     requirements: "Java 17 or later (automatically installed as dependency)",
   },
 
+  qode: {
+    title: "QODE - Lightweight Code Editor",
+    description:
+      "A native C++/Qt 6 code editor for Linux with a project explorer, syntax highlighting, an integrated terminal, Git integration and language server support. No Electron.",
+    features: [
+      "Project explorer, tabbed editor with split views, minimap, code folding and breadcrumbs",
+      "Integrated terminal (Ctrl+J) with split panes and multiple tabs",
+      "Git integration - status, staging, commits, history, diff viewer and blame",
+      "Language servers (LSP) - diagnostics, hover, go to definition and completion for C/C++, Kotlin, HTML, CSS, JavaScript, TypeScript and JSON",
+      "Web development - dev server with start/stop/restart and port display for npm, pnpm, yarn and bun projects",
+      "Built-in .env editor and detection of web projects in nested folders",
+      "Find in files with replace, command palette, quick open and bookmarks",
+      "Markdown and SVG live preview, image and video viewer",
+      "Dark and light themes",
+    ],
+    install: "sudo apt install qode",
+    github: "https://github.com/zahid4kh/QODE",
+    note: "Language servers are optional and not bundled. The web servers can be installed from the LSP menu and need Node.js.",
+  },
+
   kached: {
     title: "Kached - Code Snippet Manager",
     description:
