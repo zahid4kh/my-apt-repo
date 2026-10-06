@@ -59,18 +59,18 @@ Priority: optional
 Description: Simple and minimalistic password generator
 
 Package: qode
-Version: 0.5.0
+Version: 0.6.0
 Architecture: amd64
 Maintainer: Zahid Khalilov <halilzahid@gmail.com>
-Installed-Size: 6704
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.4.0), libqt6multimedia6 (>= 6.2.1), libqt6multimediawidgets6 (>= 6.2.1), libqt6network6t64 (>= 6.1.2), libqt6widgets6t64 (>= 6.3.0), libstdc++6 (>= 11), zlib1g (>= 1:1.1.4), tar (>= 1.29)
+Installed-Size: 7852
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.4.0), libqt6multimedia6 (>= 6.2.1), libqt6multimediawidgets6 (>= 6.2.1), libqt6network6t64 (>= 6.1.2), libqt6widgets6t64 (>= 6.4.0), libstdc++6 (>= 11), zlib1g (>= 1:1.1.4), tar (>= 1.29)
 Recommends: git
 Suggests: clangd, clang-format
-Filename: pool/main/q/qode/qode_0.5.0_amd64.deb
-Size: 2029436
-MD5sum: d85b22b5d4f2b51a66288f5f0999cfcf
-SHA1: 70f096cd3dfa9ac8a33bd6be03a4b198902d8fb6
-SHA256: a636a8f8f29dec8c49f3b2b19abe8e03b68edf51d08ec8de50f75ec54d546765
+Filename: pool/main/q/qode/qode_0.6.0_amd64.deb
+Size: 2434380
+MD5sum: 2e5c9bd6ebeb6268ff226bb6e5be8a5a
+SHA1: 2d49e4a3f7d45a1b4819ce89225acc815d792ec3
+SHA256: 5bc9557e81be83a9977f8f13915f0bceb5c3b205105554edbcc6aa5f8035300d
 Section: editors
 Priority: optional
 Homepage: https://github.com/zahid4kh/QODE
