@@ -1,29 +1,29 @@
 Architectures: amd64
 Codename: stable
 Components: main
-Date: Tue, 06 Oct 2026 14:26:52 +0000
+Date: Thu, 08 Oct 2026 19:25:32 +0000
 Description: Zahid Khalilov's Application Repository
 Label: Zahid's Debian Apps Repository
 Origin: Zahid Khalilov
 Suite: stable
 Version: 1.0
 MD5Sum:
- 8cbeb3716265aee532c4c081b3d73cdd             2008 Release
- 9b3874e20906525f15286303a41a7644             5363 main/binary-amd64/Packages
- c9e10cfa741beec3af9fbd428dd08774             2208 main/binary-amd64/Packages.bz2
- 4f826c39853bfc720284850e000e559c             1993 main/binary-amd64/Packages.gz
+ d96069fc1b76963bdb9daf7f7bf214c9             2008 Release
+ 4a121f59f82d7f6dd63f75f72cdcdcef             5363 main/binary-amd64/Packages
+ 318f868225cd5f192e71f1a3ffe6605d             2210 main/binary-amd64/Packages.bz2
+ 8a0947fd3142a08674b471104cbadcfa             1989 main/binary-amd64/Packages.gz
 SHA1:
- c164e11211dfb6b0fd96e0f34e87b95a2339bdeb             2008 Release
- 30750caf3e2c258207e374d0c42bae0be81664aa             5363 main/binary-amd64/Packages
- d88e5cda5e9da5223f9c19b1c2f0f6738f6b60a5             2208 main/binary-amd64/Packages.bz2
- 03082de90c67d17d0594226a1ef00581402009e9             1993 main/binary-amd64/Packages.gz
+ 53c6f3bcbbac4b022c7b84eeecec181f748a2a5c             2008 Release
+ 8b520120af67e23922ea38d08d48380b77e882e6             5363 main/binary-amd64/Packages
+ 85de0fb1f36647627b8134e60de2b12f9f9669be             2210 main/binary-amd64/Packages.bz2
+ c1badea8fea632aa244e52d7c8bf5b0838d45737             1989 main/binary-amd64/Packages.gz
 SHA256:
- 3859353ba21d33ac94f75d66f3babace5b93d078db947dc9caae235416f04106             2008 Release
- a7718a0ea74cabb05bc84d18342e1bc73dbab798e3936089931c2f8f05812248             5363 main/binary-amd64/Packages
- 37186c7b18f5a494377ff5906cad78ecb7c6e278cf51e0f06c61c1c09733c609             2208 main/binary-amd64/Packages.bz2
- ccf57cab8bdce4bc240e1d6759a22467fe76446ddb2c0ee088939ce5792df451             1993 main/binary-amd64/Packages.gz
+ cc4e8a96b77bcf82107b02d5523a25d0971e02cc2f12c33d55624e0621d35ac6             2008 Release
+ 4e6d3e0e8c92968c68deda09e635f182329cabac27bd4d39a6181d5680e4f1f2             5363 main/binary-amd64/Packages
+ 53a428bec8457c4a5414cbe49801c4110d5c4bcd8de449ee1d8e5a15f22b58b6             2210 main/binary-amd64/Packages.bz2
+ 23c327af592e881e77b7fc30894bb4bfae533b59b77772a75e87bafa063f37a5             1989 main/binary-amd64/Packages.gz
 SHA512:
- 59c4537bded1850090255aa9253df00dbebf25ead283221e7ef61a19a861532994cd1d042bc5bd3d05b2d72aaa2edbbb8c89f77ebb047e39ad55325ff3d52422             2008 Release
- b93368ffdb0074ddefeeca7aef10200a18ed375529d316eaae4e98460824cc1fcaf1f91d5874f95cb3366f9740e81c3b4cad68fed2ec072c79e20898eea6b5fa             5363 main/binary-amd64/Packages
- 949d1d70bbe658b7154b5438e28df31d4094ff913464f50d29036d521f5a5c7b7845880bef01993a839bcde3de3a314f2060ed8e65c513c77b2046674905bf48             2208 main/binary-amd64/Packages.bz2
- 80f83f55dc0e05586c6dd7e73af4a2e23daa8b2d0940a9e758182d41c7ecb7982fc0e852ea7c8f08d092fa35449b44c6ab3ba9df67a986923d9fb78146012c85             1993 main/binary-amd64/Packages.gz
+ d1f5129d20e9d697f0d9a11414a7ca0a43488915a730c371dac078dafdf9cbec42416bbccb6315cb796e6da8a97d8c52b54faa1068ba5014e886b48d7c7b2d71             2008 Release
+ 78b75fac3dcd5f79ca7c16de231eae893a7c3cc71843c2b515bba0c452d6df809c68c56e203f47b1dad3be72e0d1a30d7fcb6e8b7f1470857c7575265435645b             5363 main/binary-amd64/Packages
+ fdeb3ee6b4ca503dc22152a4197b8ef6d5cded73e629402b93bfd9fd365febeb4ae5486ea85899299fce5f66c5a574127798ca98c2fd4045544d0d36003d5e09             2210 main/binary-amd64/Packages.bz2
+ cf631ac247c7df35e1ef27698bfa4c725f5836cef544e56ded082d5151d4d3343f6ee11c2b610fd227185923033eb067d44ad46d688b49a484794fb4ed8b4a01             1989 main/binary-amd64/Packages.gz
