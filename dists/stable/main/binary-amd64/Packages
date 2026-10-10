@@ -59,18 +59,18 @@ Priority: optional
 Description: Simple and minimalistic password generator
 
 Package: qode
-Version: 0.8.0
+Version: 0.9.0
 Architecture: amd64
 Maintainer: Zahid Khalilov <halilzahid@gmail.com>
-Installed-Size: 9156
+Installed-Size: 9240
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.4.0), libqt6multimedia6 (>= 6.2.1), libqt6multimediawidgets6 (>= 6.2.1), libqt6network6t64 (>= 6.1.2), libqt6widgets6t64 (>= 6.4.0), libstdc++6 (>= 11), zlib1g (>= 1:1.1.4), tar (>= 1.29)
 Recommends: git
 Suggests: clangd, clang-format
-Filename: pool/main/q/qode/qode_0.8.0_amd64.deb
-Size: 3031646
-MD5sum: c1024667466ca3499e51042000810129
-SHA1: 0043a9ac297a951165c421cff417307e2c7b4330
-SHA256: 518f5f8b4e5fe7911075cdebd59d0070715662d683058b60947738bc124a3226
+Filename: pool/main/q/qode/qode_0.9.0_amd64.deb
+Size: 3062172
+MD5sum: 01bda8e29db239784a5f9acc6bd889b6
+SHA1: a31d9dbf9bfbcf86704ba8bf8794e7f08382930a
+SHA256: f4a86a819e4947a4ce9d5eed365479f6e62aa61d598073df24558cbfa766cc61
 Section: editors
 Priority: optional
 Homepage: https://github.com/zahid4kh/QODE
